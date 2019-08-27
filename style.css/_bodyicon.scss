@@ -1,0 +1,32 @@
+.card-group {
+    width: 100%;
+    margin: auto;
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 0 80px;
+}
+.icon{
+ color: #fff;
+}
+.container {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #f0f0f0;
+    padding: 80px 2px;
+
+    >p{
+    font-size: 18px;
+    }
+}

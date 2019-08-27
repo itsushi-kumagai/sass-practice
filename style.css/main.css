@@ -1,0 +1,271 @@
+@charset "UTF-8";
+header {
+  position: fixed;
+  height: 100px;
+  letter-spacing: 5px;
+  background: #262626;
+  width: 100%;
+  z-index: 12;
+  /*スクロールしても位置が変わらない指定*/
+}
+
+img {
+  border-radius: 30px;
+}
+
+.box {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #f0f0f0;
+  letter-spacing: 5px;
+}
+
+nav {
+  float: right;
+  line-height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 20px;
+  color: #f0f0f0;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  display: block;
+  top: 100px;
+  background: url(../jonathan-riley-VW8MUbHyxCU-unsplash.jpg);
+  border-radius: 0  0 300px 300px;
+  background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.inner {
+  padding-top: 320px;
+  letter-spacing: 5px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h1 {
+  color: #f0f0f0;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%;
+}
+
+.btn {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-pack: distribute;
+  -moz-flex-pack: distribute;
+  -ms-flex-pack: distribute;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  width: 300px;
+  padding: 5px 20px;
+  float: left;
+  color: #232323;
+  font-size: 16px;
+  line-height: 30px;
+  background: #fff;
+}
+
+.genre-txt {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: none;
+  outline: none;
+  width: 150px;
+  padding: 5px 20px;
+  margin-left: 30px;
+  border-radius: 30px;
+  float: left;
+  color: #232323;
+  font-size: 16px;
+  line-height: 30px;
+  background: #fff;
+}
+
+.fa-search {
+  width: 0;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.card-group {
+  width: 100%;
+  margin: auto;
+  padding-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 300px;
+  background: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  float: left;
+  margin: 0 80px;
+}
+
+.icon {
+  color: #fff;
+}
+
+.container {
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #f0f0f0;
+  padding: 80px 2px;
+}
+
+.container > p {
+  font-size: 18px;
+}
+
+.main {
+  text-align: center;
+}
+
+.sub {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-pack: distribute;
+  -moz-flex-pack: distribute;
+  -ms-flex-pack: distribute;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+  float: right;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #f0f0f0;
+  letter-spacing: 5px;
+}
+
+.image {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 200px 30px;
+  float: left;
+}
+
+.image p > {
+  margin: 100px 40px;
+}
+
+.wrapper {
+  width: 100px;
+  margin: auto;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-pack: distribute;
+  -moz-flex-pack: distribute;
+  -ms-flex-pack: distribute;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.card-image {
+  width: 30%;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.card-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 380px;
+  height: 400px;
+}
+
+.card-content {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #f0f0f0;
+  padding: 100px 20px 200px 20px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  padding: 50px 0;
+}
+
+.box2 {
+  height: 500px;
+  background-color: #262626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  background: #000;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+.wrapper{
+
+    width: 100px;
+    margin: auto;
+    margin-top: 100px;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    -webkit-flex-pack:distribute;
+    -moz-flex-pack:distribute;
+    -ms-flex-pack:distribute;
+    -webkit-justify-content:space-around;
+    -moz-justify-content:space-around;
+    justify-content:space-around;
+
+}
+
+.card-image{ 
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 10px;
+ img {
+    object-fit: cover;
+    width: 380px;
+    height: 400px;
+    }
+}
+
+.card-content{
+    text-decoration: none;
+    font-size: 18px;
+    font-family:sans-serif;
+    color: #f0f0f0;
+    padding: 100px 20px 200px 20px;
+    letter-spacing: 5px;
+}
+h2{
+    padding: 50px 0;
+}

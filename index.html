@@ -5,8 +5,10 @@
     <meta charset="utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <link rel="stylesheet" href="./style.css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/00107f2bbc.js"></script>
 </head>
 <body>
@@ -33,7 +35,19 @@
                 <div class="btn" >
                     <div class="search-box">
                         <input class="search-txt" type="text" name="txt" placeholder=" search job" > 
-                        <input class="genre-txt" type="text" name="txt" placeholder=" Genre " > 
+                        <div class="form-select1 form-select2　">
+                            <select name="selectSample" id="selectSample">
+                                <option value="">genre</option>
+                                <option value="01">Medical</option>
+                                <option value="02">Apparel</option>
+                                <option value="03">Travel</option>
+                                <option value="04">Restaurant</option>
+                                <option value="05">education</option>
+                                <option value="06">Publication</option>
+                                <option value="07">Advertising</option>
+                                <option value="08">Building</option>
+                            </select>
+                        </div>
                     </div>   
                     <a class="search-btn" href="#">
                           <i class="fas fa-search"></i>
@@ -53,10 +67,10 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="icon">
+                            <div class="icon order2">
                                 <i class="far fa-building fa-5x"></i>
                             </div>                              
-                            <div class="container">
+                            <div class="container order1">
                                 <h1><b>890</b></h1>
                                 　　<p>amet consectetur adipisicing elit. Iusto nisi explicabo expedita odit .</p>
                             </div>
@@ -75,59 +89,198 @@
             <section class="main">
                     <div class="sub">
                         <div class="image">
-                        <img src="annie-spratt-QckxruozjRg-unsplash.jpg" width="50%" height="60%" alt="picture">
-                        <p >
+                            <div>
+                                <img src="./image folder/annie-spratt-QckxruozjRg-unsplash.jpg"alt="picture">
+                            </div>
+                            <div class="img-text">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis 
-                            l  audantium neque velit libero commodi voluptas possimus. Eius atque
-                            totam.
-                           </p>
+                            l  audantium neque velit libero commodi.
+                            </div>
                         </div>
+                        
                     </div>
                     <div class="sub">
                         <div class="image">
-                            <p>
+                            <div class="img-text">
                              nesciunt similique eos dolores tempore facilis in itaque
-                             dicta quo ducimus.Eius atqu,totam, nesciunt similique eos 
-                            </p>
-                            <img src="brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" width="50%" height="60%" alt="picture">
+                             dicta quo 
+                             </div>
+                             <div class="img-image">
+                                 <img src="./image folder/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg"alt="picture">
+                            </div>
+                            
+                            
                         </div>
                     </div>
             </section>
             <section>
-                <div class="wrapper">
+                <div class="service">
                     <div class="card-group2">
                         <div class="card-content">
                                 <div class="card-image">
-                                    <img src="carlos-muza-hpjSkU2UYSU-unsplash.jpg"　 alt="card1">
+                                    <img src="./image folder/carlos-muza-hpjSkU2UYSU-unsplash.jpg"　 alt="card1">
                                 </div>
-                                <h2>analyse</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus 
-                                sapiente voluptates laborum amet quisquam cupiditate</p>
+                                <div class="card-image-text">                              
+                                    <h2>analyse</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus 
+                                    sapiente .</p>
+                                </div>
+  
                         </div>
                     </div>
                     <div class="card-group2">
                         
                         <div class="card-content">
                                 <div class="card-image">
-                                    <img src="hunters-race-MYbhN8KaaEc-unsplash.jpg"　width="180" height="400" alt="card2">
+                                    <img src="./image folder/hunters-race-MYbhN8KaaEc-unsplash.jpg"alt="card2">
                                 </div>
-                                <h2>practice</h2>
-                                <p> nesciunt libero suscipit, in ab accusamus itaque, inventore fugiat eum 
-                               eveniet incidunt adipisci reiciendis doloribus.</p>
+                                <div class="card-image-text">
+                                    <h2>practice</h2>
+                                    <p> nesciunt libero suscipit, in ab accusamus itaque, inventore fugiat eum 
+                                     eveniet .</p>
+                                </div>
+                                
                         </div>
                     </div>
                     <div class="card-group2">
                         <div class="card-content">
                                 <div class="card-image">
-                                    <img src="helloquence-5fNmWej4tAA-unsplash.jpg" width="250" height="400"　alt="card3">
+                                    <img src="./image folder/helloquence-5fNmWej4tAA-unsplash.jpg"alt="card3">
                                 </div> 
-                                <h2>feedback</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus 
-                               sapiente voluptates laborum amet quisquam cupiditate.</p>
+                                <div class="card-image-text">
+                                    <h2>feedback</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus 
+                               sapiente voluptates.</p>
+                                </div>
+                                
                        </div>
                     </div>
                 </div>
             </section>
+                <div class="LearnMore">
+                    <button class="btn1">Learn more</button>
+                </div>
+            <section>
+                <div class="gallery">
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/piron-guillaume-U4FyCp3-KzY-unsplash.jpg" alt="medical-card">
+                            </div>
+                            <h2><b>Medical care</b></h2>
+                        </div>
+                    </div>
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/lauren-fleischmann-R2aodqJn3b8-unsplash.jpg" alt="fachion-card">
+                            </div>
+                            <h2><b>Apparel industry</b></h2>
+                        </div>
+                    </div>
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.jpg" alt="trip-card">
+                            </div>
+                            <h2><b>Travel agency</b></h2>
+                        </div>
+                    </div>
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="food-card" >
+                            </div>
+                            <h2><b>Restaurant business</b></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="gallery">
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/neonbrand-zFSo6bnZJTw-unsplash.jpg" alt="teacher-card">
+                            </div>
+                            <h2><b>education</b></h2>
+                        </div>
+                    </div>
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/rita-morais-7vfHH_YbNwQ-unsplash.jpg" alt="Publication-card">
+                            </div>
+                            <h2><b>Publication</b></h2>
+                        </div>
+                    </div>
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/aaron-sebastian-XWl8Pu3HrgY-unsplash.jpg" alt="Advertising-card">
+                            </div>
+                            <h2><b>Advertising</b></h2>
+                        </div>
+                    </div>
+                    <div class="card-group3">
+                        <div class="gallery-con">
+                            <div class="card-image3">
+                                <img src="./image folder/jakub-gorajek-AvhMrjYC8L8-unsplash.jpg" alt="Building industry-card" >
+                            </div>
+                            <h2><b>Building industry</b></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <form id="login" name="login" method="post" action="#" class="login-area">
+                    <div class="login-box">  
+                            <div class="input-box">
+                                <p class="login-text">Please enter your <b>username</b> <br> and <b>passward</b> to ligin</p>
+                                <div class="input-btn">
+                                    <input type="text" id="userid" name="userid" placeholder=" user name"/>
+                                    <input type="password" id="password" name="password"placeholder=" passward"/>
+                                </div>
+                               <div class="button">
+                                    <button type="submit">login</button> 
+                               </div>
+                                   
+                               
+                                                                
+                                    <p class="login-text"> Don't have an account ?</p>
+                                <div class="button">
+                                    <button type="submit">sign up</button> 
+                                </div>
+                                <div class="sns-icon">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <i class="fab fa-twitter-square"></i>
+                                </div>
+                            </div>
+                            
+                            <div class="login-image">
+                                    <div class="box3">
+                                    <img src="" alt="">
+                                </div>
+    
+                        </div>
+                            
+                            <!--./jorge-vasconez-buYlndcNnjM-unsplash.jpg-->
+                        
+                        </div>
+                        
+                    <input type="hidden" name="formcmd" value="" />
+                </form>
+
+            </section>
+            
+            
+            <p id="page_top"><a href="#wrap">▲</a></p>
+
+
+
+
+
+
 </body>
 <footer>
     <div class="box2">

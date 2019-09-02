@@ -6,8 +6,8 @@
     height: 100vh;
     display: block;
     top: 100px;
-    background: url(../jonathan-riley-VW8MUbHyxCU-unsplash.jpg);
-    border-radius: 0  0 300px 300px;
+    background: url(jonathan-riley-VW8MUbHyxCU-unsplash.jpg);
+
     background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
@@ -35,18 +35,14 @@
     justify-content: center;
     align-items: center;
 }
-.search-txt{
-    display:-webkit-box;
-    display:-moz-box;
-    display:-ms-flexbox;
-    display:-webkit-flex;
-    display:-moz-flex;
+.search-box{
     display:flex;
-    -webkit-flex-pack:distribute;
-    -moz-flex-pack:distribute;
-    -ms-flex-pack:distribute;
-    -webkit-justify-content:space-around;
-    -moz-justify-content:space-around;
+    justify-content:space-around;
+}
+
+
+.search-txt{
+    display:flex;
     justify-content:space-around;
     border: none;
     outline: none;
@@ -58,24 +54,75 @@
     font-size: 16px;
    line-height: 30px;
    background: #fff;
-}
+        
 
-.genre-txt{
-    justify-content:space-around;
-    border: none;
-    outline: none;
-   width: 150px;
-   padding: 5px 20px;
-    margin-left: 30px;
-    border-radius: 30px;
-    float: left;
-    color: #232323;
-    font-size: 16px;
-   line-height: 30px;
-   background: #fff;
 }
+.search-txt:focus  {
+    background: #232323;
+    color: #f0f0f0;
+    transition: 0.5s;
+    }
+
+    select{
+        outline:none;
+        border: none;
+        text-overflow: '';
+        margin-left: 30px;
+        padding: 5px 20px;
+        height: 40px;
+        width: 180px;
+        border-radius: 50px;
+        vertical-align: middle;
+        font-size: inherit;
+        color: inherit;
+        appearance: button;
+    }
+
+
+
+    
+
+
 .fa-search{
     width: 0;
     padding: 0 10px;
     color: #fff;
 } 
+@media screen and (max-width: 767px){
+
+    .content {
+        max-width: 600px;
+        h1{
+            font-size: 350%;
+         }
+    }
+
+    .search-box{
+        display: block;
+        
+    }
+    .search-txt{
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+    }
+    select{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .fa-search{
+        padding: 0;
+        margin-top: 100px;
+
+    
+    }
+    search-btn{
+        i{ 
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+
+    
+}

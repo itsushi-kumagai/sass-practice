@@ -6,11 +6,8 @@ header{
     width: 100%;
     z-index: 12; /*スクロールしても位置が変わらない指定*/
 }
-img{
-    border-radius: 30px;
-}
+
 .box{
-    width: 1170px;
     margin: 0 auto;
 }
 .logo{
@@ -29,10 +26,42 @@ img{
 nav{
     float: right;
     line-height: 100px;
-     a{
+    a{
         text-decoration: none;
-        font-size: 16px;
-        margin: 0 20px;
+        font-size: 14px;
+        margin: 0 20px 0 0;
         color: #f0f0f0;
+        transition: 0.4s;
     }
+    a:hover{
+        font-size: 18px;
+        transition: 0.4s;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+header{
+    height: 100px;
+   margin: 0 auto;
+    nav{
+        display: none;
+    }
+
+}
+.logo{
+    width: 200px;
+    max-width: 500px;
+    margin: 0 auto;
+    float: none;
+    a{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
 }

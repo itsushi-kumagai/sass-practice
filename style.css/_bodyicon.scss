@@ -1,15 +1,13 @@
 .card-group {
     width: 100%;
     margin: auto;
-    padding-top: 200px;
+    padding: 200px 0;
     display: flex;
     justify-content: space-between;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-    transition: 0.4s;
-    width: 300px;
     background: #000;
     text-align: center;
     font-size: 16px;
@@ -24,9 +22,41 @@
     font-size: 30px;
     letter-spacing: 5px;
     color: #f0f0f0;
-    padding: 80px 2px;
+    padding: 0;
 
     >p{
     font-size: 18px;
     }
+}
+@media screen and (max-width: 767px){
+
+    .card-group{
+        align-items: center;
+        display: block;
+
+    }
+    .icon{
+        margin: 20px;
+    }
+    .card{
+ 
+        display: flex;
+        align-items: center;
+        padding: 20px 20px 50px;
+        margin: 0;
+    }
+   .order1{
+        order: 1;
+    }
+   .order2{
+        order: 2;
+    }
+
+
+
+
+
+
+
+    
 }
